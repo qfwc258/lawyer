@@ -10,7 +10,7 @@ cwimg = "/css/images/cw.jpg"
   copyright = "ChenWei.All Rights Reserved 2018-2030"
   #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
   bg_scroll = ""
-  favicon = "favicon.ico"
+  favicon = "css/images/favicon.ico"
 
 #[[params.social]]
  # medium = "Twitter"
