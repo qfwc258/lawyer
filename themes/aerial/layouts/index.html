@@ -30,16 +30,24 @@
 						<h1>{{ .Site.Params.name | safeHTML }}</h1>
 						<p>{{ .Site.Params.about | safeHTML }}</p>
 						<nav>
-							<ul>
+							<ul>					
+
 								{{ range .Site.Params.social }}
-								<li><a href="{{ .link | safeURL }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
+								<li><a href="{{ .link | safeURL }}" class="icon fa-{{ .icon }}">									
+									<span class="label">{{ .medium }}</span></a></li>								
 								{{ end }}
 							</ul>
 						</nav>
-					</header>
+					</header>						
+								
 
 				<!-- Footer -->
 					<footer id="footer">
+						<a class="social weixin" href="javascript:">							
+								  <img class="qrcode" src="/css/images/qrcode.jpg" alt="微信二维码">
+								<span style="font-size: 20;" class="icon fa-weixin"></span>					
+								</a>
+								<br>						
 						<span class="copyright">&copy; {{ .Site.Params.copyright }}</span>
 					</footer>
 

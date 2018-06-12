@@ -28,9 +28,9 @@ cwimg = "/css/images/cw.jpg"
  # link = "#"
 
 [[params.social]]
-  medium = "Weixin"
-  icon = "weixin"
-  link = "javascript:"
+  medium = "Qq"
+  icon = "qq"
+  link = "http://wpa.qq.com/msgrd?v=3&uin=47925738&site=qq&menu=yes"
 
 [[params.social]]
   medium = "Email"
