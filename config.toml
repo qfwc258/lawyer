@@ -30,7 +30,7 @@ cwimg = "/css/images/cw.jpg"
 [[params.social]]
   medium = "Weixin"
   icon = "weixin"
-  link = "https://github.com/qfwc258"
+  link = "javascript:"
 
 [[params.social]]
   medium = "Email"
