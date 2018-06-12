@@ -524,6 +524,21 @@ text-align: center;
 border-radius:50%;
 	}
 
+	#cwimg	{
+-webkit-animation:pulse 5s .5s ease both;
+-moz-animation:pulse 5s .5s ease both;}
+@-webkit-keyframes pulse{
+0%{-webkit-transform:scale(1)}
+50%{-webkit-transform:scale(1.1)}
+100%{-webkit-transform:scale(1)}
+}
+@-moz-keyframes pulse{
+0%{-moz-transform:scale(1)}
+50%{-moz-transform:scale(1.1)}
+100%{-moz-transform:scale(1)}
+}
+
+
 		#header h1 {
 			font-size: 3em;
 			font-weight: 900;

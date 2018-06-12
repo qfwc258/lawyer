@@ -26,7 +26,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<img src="{{ .Site.Params.cwimg | safeHTML }}">
+						<spand id="cwimg"><img src="{{ .Site.Params.cwimg | safeHTML }}"></span>
 						<h1>{{ .Site.Params.name | safeHTML }}</h1>
 						<p>{{ .Site.Params.about | safeHTML }}</p>
 						<nav>
@@ -40,7 +40,7 @@
 
 				<!-- Footer -->
 					<footer id="footer">
-						<span class="copyright">&copy; {{ .Site.Params.copyright }}. Design: <a href="http://html5up.net">HTML5 UP</a>. Powered by <a href="https://www.gohugo.io/">Hugo.</a></span>
+						<span class="copyright">&copy; {{ .Site.Params.copyright }}</span>
 					</footer>
 
 			</div>
