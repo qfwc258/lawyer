@@ -1,38 +1,38 @@
-languageCode = "en-us"
-title = "Aerial"
-baseurl = "http://example.org/"
+languageCode = "zh-cn"
+title = "陈伟律师"
+baseurl = "http://xlking.com/"
 theme = "aerial"
 
 [params]
 cwimg = "/css/images/cw.jpg"
   name = "陈 伟"
-  about = "Sex:男 | Age:36 | Job:律师 | 执业证号:25852225555855"
-  copyright = "Untitled"
+  about = "律师 | TEl:13975892485 | 1982.03 | 执业证号:"
+  copyright = "ChenWei.All Rights Reserved 2018-2030"
   #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
   bg_scroll = ""
   favicon = "favicon.ico"
 
-[[params.social]]
-  medium = "Twitter"
-  icon = "twitter"
-  link = "#"
+#[[params.social]]
+ # medium = "Twitter"
+ # icon = "twitter"
+ # link = "#"
 
-[[params.social]]
-  medium = "Facebook"
-  icon = "facebook"
-  link = "#"
+#[[params.social]]
+ # medium = "Facebook"
+ # icon = "facebook"
+ # link = "#"
 
-[[params.social]]
-  medium = "Dribbble"
-  icon = "dribbble"
-  link = "#"
+#[[params.social]]
+ # medium = "Dribbble"
+ # icon = "dribbble"
+ # link = "#"
 
 [[params.social]]
   medium = "Github"
   icon = "github"
-  link = "#"
+  link = "https://github.com/qfwc258"
 
 [[params.social]]
   medium = "Email"
   icon = "envelope-o"
-  link = "#"
+  link = "mailto:cw.law@qq.com"
